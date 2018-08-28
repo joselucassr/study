@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Título Teste</title>
+	</head>
+	
+	<body>
+		
+		<?php
+			/*
+			$nome = "Lucas";
+			
+			echo 'Olá Mundo!<br>';
+			print 'Tudo bem? <br>';
+			echo "Meu nome é ". $nome ;
+			
+			Pode ser simplificado como 
+			
+			echo "Olá Mundo!<br>Tudo bem?<br> Meu nome é " . $nome; 
+			*/
+			
+			/*
+			Função para realizar e mostrar calculos:
+			
+			$valor_1 = 15;
+			$valor_2 = 37;
+			$total = $valor_1 + $valor_2;
+			echo "$valor_1 + $valor_2 = " . $total;
+			*/
+			
+			/*
+			Faça um programa que exiba na tela a operação com
+			três numeros das quatro operações basicas
+			
+			
+			$valor_A = 4;
+			$valor_B = 6;
+			$valor_C = 7;
+			
+			$soma = $valor_A + $valor_B + $valor_C;
+			$produto = $valor_A * $valor_B * $valor_C;
+			$divisao = $valor_A / $valor_B / $valor_C;
+			$subtracao = $valor_A - $valor_B - $valor_C;
+			
+			echo "Operação de soma:<br> $valor_A + $valor_B + $valor_C = " . $soma . "<br>";
+			echo "Operação de produto:<br> $valor_A * $valor_B * $valor_C = " . $produto . "<br>";
+			echo "Operação de divisão:<br> $valor_A / $valor_B / $valor_C = " . $divisao . "<br>";
+			echo "Operação de subtração:<br> $valor_A - $valor_B - $valor_C = " . $subtracao;
+			*/
+			
+			/* 
+			Faça um programa que exiba com exatidão a quantidade de dias vividos por mim
+			
+			$data_nascimento = strtotime("15 - may - 2000");
+			$data_hoje = strtotime("now");
+			$segundos_vividos = $data_hoje - $data_nascimento;
+			$minutos_vividos = $segundos_vividos / 60;
+			$horas_vividas = $minutos_vividos / 60;
+			$dias_vividos = $horas_vividas / 24;
+			$meses_vividos = $dias_vividos / 30;
+			$anos_vividos = $meses_vividos / 12;
+			
+			echo "Você viveu " . floor($segundos_vividos). " segundos, parabéns!". "<br>";
+			echo "Você viveu " . floor($minutos_vividos). " minutos, parabéns!". "<br>";
+			echo "Você viveu " . floor($horas_vividas). " horas, parabéns!". "<br>";
+			echo "Você viveu " . floor($dias_vividos). " dias, parabéns!". "<br>";
+			echo "Você viveu " . floor($meses_vividos). " meses, parabéns!". "<br>";
+			echo "Você viveu " . floor($anos_vividos). " anos, parabéns!";
+			*/
+			
+			/*
+			Gerador de senhas:
+			
+			$str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%&*()_+=-";
+			
+			print substr(str_shuffle($str), 0, 10);
+			*/
+			
+			/*
+			Função para trocar palavras de uma string:
+			
+			$texto = "Puta que pariu irmão!!";
+			$novo_texto = str_ireplace("puta que pariu", "Eae", $texto);
+			echo $novo_texto;
+			*/
+		
+		?>
+	</body>
+
+</html>
